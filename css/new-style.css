@@ -104,9 +104,6 @@ h3 {
     color: #FFF;
 }
 
-#myCarousel {
-    margin-top: 50px;
-}
 
 @media (max-width: 768px) {
     .carousel-inner .carousel-item>div {
@@ -162,4 +159,41 @@ h3 {
 
 footer{
     background-color: #212121;
+}
+
+.carousel-control-prev{
+    padding-right: 150px !important;
+}
+
+.carousel-control-next{
+    padding-left: 150px !important;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("../images/vectors/arrow_back_black.svg") !important;
+}
+
+.carousel-control-next-icon{
+    background-image: url("../images/vectors/arrow_foward_black.svg") !important;
+}
+
+@media (max-width: 1500px){
+    .dupla-container {
+        margin-top: 0px !important;
+    }
+
+    .good-idea{
+        line-height: 0.8;
+    }
+    .buena, .idea{
+        font-size: 300px;
+    }
+    
+    .una, .sostiene-todo{
+        font-size: 100px;
+    }
+    .clients-image{
+        width: 90px;
+    }
+    
 }
