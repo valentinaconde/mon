@@ -203,6 +203,14 @@ footer{
 .working{
     font-size: 30px;
 }
+.first-inventions{
+    font-size: 24px;
+}
+
+.logo-mon{
+    width: 300px;
+}
+
 
 @media (max-width: 1500px){
     .dupla-container {
@@ -222,7 +230,13 @@ footer{
     .clients-image{
         width: 90px;
     }
-    
+    .first-inventions{
+        font-size: 18px;
+    }
+    .logo-mon{
+        width: 150px;
+
+    }
 }
 
 
