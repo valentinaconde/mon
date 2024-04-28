@@ -121,13 +121,11 @@ h3 {
     font-size: 20px;
 }
 
-.first-inventions{
-    font-size: 24px ;
-}
 
-.looking-founding{
+
+
+.standar-font{
     font-size: 24px;
-
 }
 
 @media (max-width: 768px) {
@@ -202,6 +200,10 @@ footer{
     background-image: url("../images/vectors/arrow_foward_black.svg") !important;
 }
 
+.working{
+    font-size: 30px;
+}
+
 @media (max-width: 1500px){
     .dupla-container {
         margin-top: 0px !important;
@@ -224,6 +226,14 @@ footer{
 }
 
 
+@media(max-width: 1200px){
+    .buena, .idea{
+        font-size: 150px;
+    }
+    .una, .sostiene-todo{
+        font-size: 80px;
+    }
+}
 @media (max-width: 768px){
     .country-icons{
         width: 20px;
@@ -242,7 +252,6 @@ footer{
     }
     .first-inventions{
         padding-top: 30px !important;
-        font-size: 14px !important;
     }
     .buena, .idea{
         font-size: 120px;
@@ -250,7 +259,35 @@ footer{
     .una, .sostiene-todo{
         font-size: 60px;
     }
-    .looking-founding{
-        font-size: 18px !important;
+    
+    .standar-font{
+        font-size: 14px !important;
     }
+    .working{
+        font-size: 18px;
+    }
+    .clients-container{
+        border-bottom: none;
+    }
+
+    .carousel-control-prev{
+        padding-right: 0px !important;
+    }
+    
+    .carousel-control-next{
+        padding-left: 0px !important;
+    }
+    
+    
+    
 }
+
+@media (max-width: 550px){
+    .buena, .idea{
+        font-size: 80px;
+    }
+    .una, .sostiene-todo{
+        font-size:40px;
+    } 
+}
+
