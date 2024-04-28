@@ -2,7 +2,7 @@
     background-image: url(../images/banner-images/MON-v2-a-gris.jpg);
     background-size: cover;
     height: 100vh;
-    background-position: 50% 50%; 
+    background-position: 50% 50%;
 }
 
 
@@ -52,11 +52,11 @@ h3 {
 }
 
 .wpp-button-large {
-    font-size: 30px;
+    font-size: 24px;
     color: #d2b356;
     text-decoration: none;
     border: 4px solid #d2b356;
-    padding: 10px 40px;
+    padding: 5px 35px;
     font-weight: 600;
 }
 
@@ -134,15 +134,6 @@ h3 {
     font-size: 24px;
 }
 
-@media (max-width: 768px) {
-    .carousel-inner .carousel-item>div {
-        display: none;
-    }
-
-    .carousel-inner .carousel-item>div:first-child {
-        display: block;
-    }
-}
 
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-start,
@@ -218,6 +209,13 @@ footer {
     width: 300px;
 }
 
+.standar-width {
+    width: 75%;
+}
+
+.video{
+    height: 700px;
+}
 
 @media (max-width: 1500px) {
     .dupla-container {
@@ -264,14 +262,25 @@ footer {
     .sostiene-todo {
         font-size: 80px;
     }
+
     .banner-background {
-        background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
-    background-position: right;
-    background-position: 85% center;
+        background-size: cover;
+        /* Ajusta el tamaño de la imagen de fondo */
+        background-position: right;
+        background-position: 85% center;
     }
 }
 
 @media (max-width: 768px) {
+
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+
     .country-icons {
         width: 20px;
     }
@@ -289,7 +298,7 @@ footer {
     }
 
     .dupla-subtitle {
-        font-size: 14px !important;
+        font-size: 18px !important;
     }
 
     .first-inventions {
@@ -298,7 +307,7 @@ footer {
 
     .buena,
     .idea {
-        font-size: 120px;
+        font-size: 150px;
     }
 
     .una,
@@ -306,12 +315,10 @@ footer {
         font-size: 60px;
     }
 
-    .standar-font {
-        font-size: 14px !important;
-    }
+
 
     .working {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .clients-container {
@@ -326,7 +333,19 @@ footer {
         padding-left: 0px !important;
     }
 
-    
+    .standar-width {
+        width: 90%;
+    }
+
+    .video{
+        height: 500px;
+    }
+
+    .standar-font {
+        font-size: 20px;
+    }
+
+
 
 
 
@@ -347,19 +366,20 @@ footer {
 
 @media (max-width: 1200px) {
     .banner-background {
-        background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
-    background-position: right;
-    background-position: 85% center;
+        background-size: cover;
+        /* Ajusta el tamaño de la imagen de fondo */
+        background-position: right;
+        background-position: 85% center;
     }
 
-    #header{
+    #header {
         z-index: 10;
     }
-    
-    .container-principal{
+
+    .container-principal {
         z-index: 10;
     }
-    
+
     .overlay {
         position: absolute;
         top: 0;
