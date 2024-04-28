@@ -1,9 +1,10 @@
-
 .banner-background {
     background-image: url(../images/banner-images/MON-v2-a-gris.jpg);
     background-size: cover;
     height: 100vh;
+    background-position: 50% 50%; 
 }
+
 
 .social-icons {
     list-style: none;
@@ -41,7 +42,7 @@ h3 {
     font-weight: 800;
 }
 
-.wpp-button{
+.wpp-button {
     font-size: 16px;
     color: #d2b356;
     text-decoration: none;
@@ -50,7 +51,7 @@ h3 {
     font-weight: 700;
 }
 
-.wpp-button-large{
+.wpp-button-large {
     font-size: 30px;
     color: #d2b356;
     text-decoration: none;
@@ -59,72 +60,77 @@ h3 {
     font-weight: 600;
 }
 
-.wpp-button:hover, .wpp-button-large:hover{
-    color:#d2b356;
-    border-color:#FFF;
+.wpp-button:hover,
+.wpp-button-large:hover {
+    color: #d2b356;
+    border-color: #FFF;
 }
 
-.dupla-container h2:after, .dupla-container h1:before{
-    background:#d2b356;
-    content:"";
-    display:block;
-    width:30px;
-    height:5px;
-    margin-top:15px;
+.dupla-container h2:after,
+.dupla-container h1:before {
+    background: #d2b356;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.good-idea{
+.good-idea {
     line-height: 0.7;
 }
-.buena, .idea{
+
+.buena,
+.idea {
     font-size: 350px;
 }
 
-.una, .sostiene-todo{
+.una,
+.sostiene-todo {
     font-size: 150px;
 }
 
-.clients-container{
+.clients-container {
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
 
-.clients-image{
+.clients-image {
     margin-right: 40px;
     /* width: 90px; */
     width: 150px;
 }
 
-.mail-link{
+.mail-link {
     color: #d2b356;
     text-decoration: none;
 }
 
-.mail-link:hover{
+.mail-link:hover {
     color: #FFF;
 }
 
-.font-small{
+.font-small {
     font-size: 12px;
 }
 
-.country-icons{
+.country-icons {
     width: 30px;
 }
 
-#banner-logo{
+#banner-logo {
     width: 150px;
 }
 
-.social-icons{
+.social-icons {
     font-size: 20px;
 }
 
 
 
 
-.standar-font{
+.standar-font {
     font-size: 24px;
 }
 
@@ -171,7 +177,7 @@ h3 {
     }
 }
 
-.card-text{
+.card-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,128 +186,186 @@ h3 {
     font-size: 12px;
 }
 
-footer{
+footer {
     background-color: #212121;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     padding-right: 150px !important;
 }
 
-.carousel-control-next{
+.carousel-control-next {
     padding-left: 150px !important;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     background-image: url("../images/vectors/arrow_back_black.svg") !important;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
     background-image: url("../images/vectors/arrow_foward_black.svg") !important;
 }
 
-.working{
+.working {
     font-size: 30px;
 }
-.first-inventions{
+
+.first-inventions {
     font-size: 24px;
 }
 
-.logo-mon{
+.logo-mon {
     width: 300px;
 }
 
 
-@media (max-width: 1500px){
+@media (max-width: 1500px) {
     .dupla-container {
         margin-top: 0px !important;
     }
 
-    .good-idea{
+    .good-idea {
         line-height: 0.8;
     }
-    .buena, .idea{
+
+    .buena,
+    .idea {
         font-size: 300px;
     }
-    
-    .una, .sostiene-todo{
+
+    .una,
+    .sostiene-todo {
         font-size: 100px;
     }
-    .clients-image{
+
+    .clients-image {
         width: 90px;
     }
-    .first-inventions{
+
+    .first-inventions {
         font-size: 18px;
     }
-    .logo-mon{
+
+    .logo-mon {
         width: 150px;
 
     }
 }
 
 
-@media(max-width: 1200px){
-    .buena, .idea{
+@media(max-width: 1200px) {
+
+    .buena,
+    .idea {
         font-size: 150px;
     }
-    .una, .sostiene-todo{
+
+    .una,
+    .sostiene-todo {
         font-size: 80px;
     }
+    .banner-background {
+        background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: right;
+    background-position: 85% center;
+    }
 }
-@media (max-width: 768px){
-    .country-icons{
+
+@media (max-width: 768px) {
+    .country-icons {
         width: 20px;
     }
-    #banner-logo{
+
+    #banner-logo {
         width: 100px;
     }
-    .social-icons{
+
+    .social-icons {
         font-size: 15px;
     }
-    .dupla-container{
+
+    .dupla-container {
         width: fit-content;
     }
-    .dupla-subtitle{
+
+    .dupla-subtitle {
         font-size: 14px !important;
     }
-    .first-inventions{
+
+    .first-inventions {
         padding-top: 30px !important;
     }
-    .buena, .idea{
+
+    .buena,
+    .idea {
         font-size: 120px;
     }
-    .una, .sostiene-todo{
+
+    .una,
+    .sostiene-todo {
         font-size: 60px;
     }
-    
-    .standar-font{
+
+    .standar-font {
         font-size: 14px !important;
     }
-    .working{
+
+    .working {
         font-size: 18px;
     }
-    .clients-container{
+
+    .clients-container {
         border-bottom: none;
     }
 
-    .carousel-control-prev{
+    .carousel-control-prev {
         padding-right: 0px !important;
     }
-    
-    .carousel-control-next{
+
+    .carousel-control-next {
         padding-left: 0px !important;
     }
+
     
-    
-    
+
+
+
 }
 
-@media (max-width: 550px){
-    .buena, .idea{
+@media (max-width: 550px) {
+
+    .buena,
+    .idea {
         font-size: 80px;
     }
-    .una, .sostiene-todo{
-        font-size:40px;
-    } 
+
+    .una,
+    .sostiene-todo {
+        font-size: 40px;
+    }
 }
 
+@media (max-width: 1200px) {
+    .banner-background {
+        background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: right;
+    background-position: 85% center;
+    }
+
+    #header{
+        z-index: 10;
+    }
+    
+    .container-principal{
+        z-index: 10;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.589);
+    }
+}
