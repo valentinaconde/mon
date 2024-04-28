@@ -1,3 +1,4 @@
+
 .banner-background {
     background-image: url(../images/banner-images/MON-v2-a-gris.jpg);
     background-size: cover;
@@ -74,7 +75,7 @@ h3 {
 }
 
 .good-idea{
-    line-height: 0.8;
+    line-height: 0.7;
 }
 .buena, .idea{
     font-size: 350px;
@@ -102,6 +103,10 @@ h3 {
 
 .mail-link:hover{
     color: #FFF;
+}
+
+.font-small{
+    font-size: 12px;
 }
 
 
