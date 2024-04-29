@@ -438,11 +438,12 @@ footer {
     }
 }
 
-
 @media (min-width: 1500px){
     .dupla-container {
         margin-top: 100px !important;
     }
+  
+    
 }
 
 .loader-section{
