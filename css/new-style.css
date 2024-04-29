@@ -219,6 +219,15 @@ footer {
     height: 700px;
 }
 
+.dupla-subtitle{
+    font-weight: 300 !important;
+
+}
+
+.subtitle-strong{
+    font-weight: 700;
+}
+
 @media (max-width: 1500px) {
     .dupla-container {
         margin-top: 0px !important;
@@ -231,11 +240,14 @@ footer {
     .buena,
     .idea {
         font-size: 300px;
+       
     }
 
     .una,
     .sostiene-todo {
         font-size: 100px;
+        position: relative;
+        left: 1.5%;
     }
 
     .clients-image {
@@ -420,5 +432,9 @@ footer {
         background-color: rgba(0, 0, 0, 0.589);
         height: 100vh;
 
+    }
+
+    .una,.sostiene-todo{
+        left: 0.7%
     }
 }
