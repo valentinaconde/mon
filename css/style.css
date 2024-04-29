@@ -95,13 +95,12 @@ h3 {
 
 .clients-container {
     padding: 10px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 .clients-image {
     margin-right: 40px;
-    /* width: 90px; */
-    width: 160px;
+    width: 12%;
 }
 
 .mail-link {
@@ -441,6 +440,9 @@ footer {
 @media (min-width: 1500px){
     .dupla-container {
         margin-top: 100px !important;
+    }
+    .clients-container {
+        display: flex;
     }
   
     
