@@ -52,11 +52,11 @@ h3 {
 }
 
 .wpp-button-large {
-    font-size: 24px;
+    font-size: 30px;
     color: #d2b356;
     text-decoration: none;
     border: 4px solid #d2b356;
-    padding: 5px 35px;
+    padding: 10px 40px;
     font-weight: 600;
 }
 
@@ -99,7 +99,7 @@ h3 {
 .clients-image {
     margin-right: 40px;
     /* width: 90px; */
-    width: 150px;
+    width: 160px;
 }
 
 .mail-link {
@@ -198,11 +198,11 @@ footer {
 }
 
 .working {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .first-inventions {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .logo-mon {
@@ -213,7 +213,7 @@ footer {
     width: 75%;
 }
 
-.video{
+.video {
     height: 700px;
 }
 
@@ -237,19 +237,29 @@ footer {
     }
 
     .clients-image {
-        width: 90px;
+        width: 100px;
     }
 
     .first-inventions {
         font-size: 18px;
     }
 
-    .logo-mon {
+    /* .logo-mon {
         width: 150px;
 
-    }
+    } */
 }
 
+@media (min-width: 1200px) and (max-width: 1350px) {
+    .clients-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .clients-image {
+        width: 90px;
+    }
+}
 
 @media(max-width: 1200px) {
 
@@ -269,6 +279,8 @@ footer {
         background-position: right;
         background-position: 85% center;
     }
+
+
 }
 
 @media (max-width: 768px) {
@@ -315,10 +327,8 @@ footer {
         font-size: 60px;
     }
 
-
-
     .working {
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .clients-container {
@@ -337,13 +347,19 @@ footer {
         width: 90%;
     }
 
-    .video{
+    .video {
         height: 500px;
     }
 
     .standar-font {
         font-size: 20px;
     }
+
+    .wpp-button-large {
+        font-size: 20px;
+        padding: 5px 30px;
+    }
+
 
 
 
@@ -387,5 +403,7 @@ footer {
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.589);
+        height: 100vh;
+
     }
 }
